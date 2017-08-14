@@ -1,0 +1,13 @@
+<view class="goods">
+  <view class="pic"><image src="../../images/phone.jpg"></image></view>
+  <view class="con">
+    <view class="h">
+      白切贵妃鸡
+    </view>
+    <view class="p">
+      材料:鸡，葱姜，洋葱，元贝，火腿
+    </view>
+    <view class="num">1份</view>
+    <view class="price">￥0.01元</view>
+  </view>
+</view>

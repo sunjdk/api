@@ -1,0 +1,37 @@
+.lg{padding:10px}
+.lg input{margin: 8px 0px;padding:8px;border: 1px solid #eee}
+.lg .err{
+  color:red;
+  font-size:14px; 
+}
+.lg button{
+  margin: 8px 0;
+}
+.logo{
+  width: 100%;
+  margin: 70px 0;
+  display: flex;
+  justify-content:center;
+}
+.logo .title{
+  font-size: 40px;
+  font-weight: bold;
+  color:#119a38;
+}
+.reg{
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.wx{
+  display: flex;
+  border: 1px solid #119a38;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  margin: 0 auto;
+  align-items:center;
+}
+.wx .wxlogo{width: 40px;height: 40px;
+}

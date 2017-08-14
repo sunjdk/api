@@ -1,0 +1,85 @@
+.container {
+  height: auto;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: palevioletred;
+  padding: 30px 0;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.userinfo-nickname {
+  color: #222;
+}
+
+.order {
+  border-bottom: 2px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order text {
+  padding: 15px 15px;
+}
+
+.stats {
+  border-bottom: 2px solid #eee;
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+}
+
+.stats .item {
+  width: 22%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.stats .item image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.stats .item text {
+  display: block;
+}
+.list .item {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+   border-bottom: 2px solid #eee;
+}
+
+.list .item .left {
+  display: flex;
+  direction: row;
+}
+
+.list .item .left image {
+  align-self: center;
+}
+
+.list .item .left text {
+  align-self: center;
+}
+
+.list .item .left image, .list .item .right image {
+  width: 60rpx;
+  height: 60rpx;
+  padding-right: 10px;
+}

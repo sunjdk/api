@@ -1,0 +1,46 @@
+<view class="container">
+  <view class="selection">
+    <swiper indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" mode="" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="selection">
+    <view class="header">
+      <text>精品推荐</text>
+      <text>全部精品</text>
+    </view>
+    <view class="content">
+      <view class="content-item" wx:for="{{contentItems}}" wx:key="">
+        <image src="http://www.505coder.com/Public/upload/goods/2016/01-15/56985a8e560b9.jpg"></image>
+        <view class="content-item-text">
+          <text>这里是标题</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <view class="selection">
+    <view class="header">
+      <text>热门评测</text>
+      <text>全部评测</text>
+    </view>
+    <view class="list-item" wx:for="{{listItems}}" wx:key="">
+      <view class="list-item-images">
+        <image src="http://www.505coder.com/Public/upload/ad/2016/07-25/5795ab303cb65.jpg" class="list-item-image-img"></image>
+        <image src="../../images/logo_10.png" class="avator"></image>
+      </view>
+      <view class="list-item-text">
+            <view class="text-title">
+                <text>标题标题标题标题标题标题标题</text>
+            </view>
+            <view class="text-content">
+                <text>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</text>
+            </view>
+      </view>
+    </view>
+  </view>
+</view>
