@@ -1,3 +1,4 @@
+///http://blog.csdn.net/qq_19558705/article/details/65935818
 var util = require('../../utils/util.js');
 var app = getApp();
 

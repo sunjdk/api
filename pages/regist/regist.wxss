@@ -1,5 +1,15 @@
+.logo{
+  width: 100%;
+  margin: 70px 0;
+  display: flex;
+  justify-content:center;
+}
+.logo .title{
+  font-size: 40px;
+  font-weight: bold;
+  color:#119a38;
+}
 .back_img{  
-  background: url(../../images/meBack.jpg) no-repeat;  
   background-size:cover;  
   -webkit-filter: blur(10px); /* Chrome, Opera */  
   -moz-filter: blur(10px);  
@@ -17,3 +27,6 @@
   margin-left:8%;  
   background-color: rgba(255,255,255,0.2);  
 }  
+.weui-cells::after{border-bottom:0}
+/* .weui-cell::before {border-top: 0} */
+.weui-cells::before {border-top: 0}
