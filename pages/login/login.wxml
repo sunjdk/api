@@ -1,0 +1,22 @@
+<view class="logo">
+  <text class="title">ThinkCMF登陆</text>
+</view>
+<view class="lg">
+  <view class="uname">
+    <input type="text" placeholder="请输入用户名" id="uname" bindinput="getVal" />
+  </view>
+  <view class="err">{{err.uname}}</view>
+  <view class="upass">
+    <input type="password" placeholder="请输入密码" id="upass" bindinput="getVal" />
+  </view>
+  <view class="err">{{err.upass}}</view>
+  <view>
+    <button type="primary" bindtap="subMit">登陆</button>
+  </view>
+</view>
+<view class="reg">
+  <text bindtap="regURL">没有账户？立即注册</text>
+</view>
+<view class="wx">
+  <image src="../../images/wx_logo.png" class="wxlogo"></image>
+</view>
