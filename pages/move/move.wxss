@@ -1,2 +1,0 @@
-.move{position: relative}
-.drag{width: 100px;height: 100px;background:#00ffff;position: absolute}

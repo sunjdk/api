@@ -1,3 +1,0 @@
-<view class="move">
-<view class="drag" style="left:{{left}}px;top:{{top}}px" bindtouchmove="viewTouchMove"></view>
-</view>
